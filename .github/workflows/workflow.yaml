@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: test
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
